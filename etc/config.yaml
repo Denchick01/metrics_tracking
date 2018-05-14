@@ -1,0 +1,19 @@
+db:
+        host: localhost
+        port: 5432
+        user: test_user
+        password: 12345
+        dbname: test_database
+mailSender:
+        smtpHost: smtp.mail.ru
+        smtpPort: 25
+        address: "" 
+        password: 
+redis:
+        host: localhost
+        port: 6379
+        db: 0
+        password: ""
+maxReqLimit: 10000
+maxTasksForAlert: 5
+taskTimeout: "1m"
